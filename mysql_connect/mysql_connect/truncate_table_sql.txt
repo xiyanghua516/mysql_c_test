@@ -1,0 +1,6 @@
+truncate aoi.pcbtable;
+truncate aoi.defectstable;
+truncate aoi.offsetstable;
+truncate aoi.badmark;
+truncate aoi.had_shopfloor_table;
+truncate aoi.blocktable;

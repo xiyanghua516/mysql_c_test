@@ -1,0 +1,5 @@
+bool initmysql(const char* pIP, const char* pUser, const char* pPwd, const char* pDatabase );//数据库初始化
+bool select_sql(__in const char *pSQL, __out ...);//查询数据接口（主要实现功能在Select函数中）
+bool update_sql(__in const char *pSQL);//更新数据
+bool insert_sql(__in const char *pSQL);//插入数据
+bool delete_sql(__in const char *pSQL);//删除数据
